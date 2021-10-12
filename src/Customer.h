@@ -22,14 +22,14 @@ private:
 
 public:
 	Customer(string first, string last, string user, string password, string passReset);
-	void setFName;
-	string getFName;
-	void setLName;
-	string getLName;
-	void setUserName;
-	string getUserName;
-	void setPassword;
-	void setPassReset;
+	void setFName();
+	string getFName();
+	void setLName();
+	string getLName();
+	void setUserName();
+	string getUserName();
+	void setPassword();
+	void setPassReset();
 };
 
 #endif /* CUSTOMER_H_ */
